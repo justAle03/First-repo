@@ -1,0 +1,12 @@
+# What do we have to do to "fix" the sequence (in general terms)?
+# In general terms, in order to "fix" the file we need to delete the blank space between the sequences and put each sequence onto a single line. Optional: we might want to think about case sensitivity
+
+# How might we represent those ideas?
+# We can represent those ideas with the input-process-output diagram where the input is the fasta file with separated sequences with blank lines and each sequence on two or three lines (+ some nucleotides are capitalised and some are not), the process is currently unknown, and the output should be a fasta file with sequences not separated by blank lines and each sequence onto a single line.
+
+# What is the first step?
+# The first step is deleting the blank lines from between the sequences.
+
+# How can we check our code is working or perhaps more importantly working and producing the output we want?
+# We can cat or less or more the output of the newly created file to check whether there are still blank lines and subsequently whether each sequence is on one line or more.
+
